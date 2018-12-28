@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity
         btn_reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, CoachList.class);
+                Intent intent = new Intent(MainActivity.this, ContactsProvider.class);
                 startActivity(intent);
             }
         });
